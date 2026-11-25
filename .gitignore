@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Swift / Xcode / Build Artifacts
+.build/
+.swiftpm/
+DerivedData/
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+Package.resolved
+
+# Local Build & Distribution Outputs (use GitHub Releases for .pkg / .app)
+dist/
+*.app
+*.pkg
+*.dmg
+*.zip
