@@ -7,7 +7,7 @@ cd "$REPO_ROOT"
 DIST_DIR="$REPO_ROOT/dist"
 APP_BUNDLE="MateView GT Control.app"
 APP_SRC="$DIST_DIR/$APP_BUNDLE"
-PKG_PATH="$DIST_DIR/MateView GT Control Installer.pkg"
+PKG_PATH="$DIST_DIR/MateView-GT-Control-v0.1-Installer.pkg"
 PKG_ROOT="/tmp/MateViewGT_PKG_Root"
 PKG_SCRIPTS="/tmp/MateViewGT_PKG_Scripts"
 COMPONENT_PKG="/tmp/MateViewGT_Component.pkg"
@@ -44,7 +44,7 @@ echo "2. Building component package..."
 pkgbuild \
     --root "$PKG_ROOT" \
     --identifier "com.ruoshui.MateViewGT.pkg" \
-    --version "1.0.0" \
+    --version "0.1" \
     --install-location "/" \
     --scripts "$PKG_SCRIPTS" \
     "$COMPONENT_PKG"

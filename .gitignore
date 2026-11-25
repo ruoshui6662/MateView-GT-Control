@@ -13,9 +13,8 @@ DerivedData/
 *.xcworkspace/xcuserdata/
 Package.resolved
 
-# Local Build & Distribution Outputs (use GitHub Releases for .pkg / .app)
-dist/
+# Local Build & Distribution Outputs
+dist/*.app
 *.app
-*.pkg
 *.dmg
 *.zip
